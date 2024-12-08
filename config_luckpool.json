@@ -1,27 +1,24 @@
 {
 	"pools":[
 	{
-		"name": "Luckpool",
-        	"url": "stratum+tcp://eu.luckpool.net:3960",
-		"timeout": 150
+		"name": "pool.verus.io",
+        "url": "stratum+tcp://eu.luckpool.net:3956",
+		"timeout": 150,
+		"disabled": 0
 	},
 	{
-		"name": "Luckpool2",
-        	"url": "stratum+tcp://eu.luckpool.net:3957",
-		"timeout": 150
-	},
-	{
-		"name": "Luckpool3",
-        	"url": "stratum+tcp://eu.luckpool.net:3956",
-		"timeout": 150
-	}
-	],
-	"user": "RQ3gHzCuzpi18DQRkfizuqjah3R25XjbzY.Samsung_A70-001",
-	"pass": "x",
+		"name": "verus.farm (Quipacorn)",
+        "url": "stratum+tcp://verus.farm:9999",
+		"timeout": 60,
+		"time-limit": 600,
+		"disabled": 0
+	}],
+	
+	"user": "RQ3gHzCuzpi18DQRkfizuqjah3R25XjbzY.VERUS_MINER_002_OnePlus_Nord_CE_2_5G",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.1.0/16",
+	"api-allow": "192.168.0.0/16",
 	"api-bind": "0.0.0.0:4068"
 }
